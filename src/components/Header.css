@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    box-shadow:4px 4px 4px 4px rgba(0,0,0,0.1);
+}
+.header-div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 40px;
+    align-items: center;
+}
+.header i{
+    position: absolute;
+    left:40px;
+    font-size: 3rem;
+    color:#C1D72F
+}
+.header-nav{
+    list-style: none;
+}
+.header-nav li{
+    float: left;
+    text-align: center;
+    padding: 16px;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color:black
+}
+.header-nav li .active{
+    color: #C1D72F
+}
